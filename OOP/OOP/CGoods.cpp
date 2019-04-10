@@ -62,8 +62,10 @@ CGoods::CGoods(const char *name, int amount, double price)
 	sizeof：分配的数组所占用的实际内存空间内的大小
 	
 	*/
+#if 0
 	cout << "sizeof(name) :"<< sizeof(name) << endl;
 	cout << "strlen(name) :" << strlen(name) << endl;
+#endif
 	_pname = new char[strlen(name) + 1];           
 	//strcpy(_pname, name);                        //vs准备弃用strcpy   需要在有文件中加#pragma warning(disable:4996)使用
 	memcpy(_pname, name, strlen(name) + 1);       //void *memcpy(void *dest, const void *src, size_t n);   内存拷贝函数

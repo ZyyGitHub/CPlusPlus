@@ -41,6 +41,9 @@ priority_queue
 输入输出流迭代器：ostream_iterator   istream_iterator
 copy(con.begin(),con.end(),osteram_iterator<int>(cout, " "))
 泛型算法
+copy()
+sort()
+find()
 */
 
 

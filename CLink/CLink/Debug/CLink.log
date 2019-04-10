@@ -1,0 +1,10 @@
+﻿  CLink.cpp
+e:\git\cplusplus\clink\clink\clink.h(25): error C2664: “int strcmp(const char *,const char *)”: 无法将参数 1 从“T”转换为“const char *”
+          with
+          [
+              T=std::string
+          ]
+  e:\git\cplusplus\clink\clink\clink.h(25): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  e:\git\cplusplus\clink\clink\clink.h(32): note: 编译 类 模板 成员函数 "bool CLink<std::string>::query<std::string>(const std::string &)" 时
+  e:\git\cplusplus\clink\clink\clink.cpp(42): note: 参见对正在编译的函数 模板 实例化“bool CLink<std::string>::query<std::string>(const std::string &)”的引用
+  e:\git\cplusplus\clink\clink\clink.cpp(32): note: 参见对正在编译的 类 模板 实例化 "CLink<std::string>" 的引用

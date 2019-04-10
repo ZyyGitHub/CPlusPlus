@@ -1,0 +1,4 @@
+﻿  main.cpp
+e:\git\data-structures-and-algorithms\arrlist\arrlist\arrlist.h(80): warning C4715: “arrList<int>::apendArr”: 不是所有的控件路径都返回值
+e:\git\data-structures-and-algorithms\arrlist\arrlist\arrlist.h(80): warning C4715: “arrList<double>::apendArr”: 不是所有的控件路径都返回值
+  arrList.vcxproj -> E:\Git\Data-Structures-and-Algorithms\arrList\Debug\arrList.exe
